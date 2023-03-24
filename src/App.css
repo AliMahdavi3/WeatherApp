@@ -1,0 +1,373 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url(/public/assets/font/Vazirmatn-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "myfont1";
+  src: url(/public/assets/font/BungeeSpice-Regular.ttf);
+}
+@font-face {
+  font-family: "myfont2";
+  src: url(/public/assets/font/Righteous-Regular.ttf);
+}
+@font-face {
+  font-family: "myfont3";
+  src: url(/public/assets/font/Outfit-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "myfont4";
+  src: url(/public/assets/font/RubikDirt-Regular.ttf);
+}
+
+* {
+  font-family: "myfont";
+  font-weight: bolder;
+}
+
+/* ===========================Background Start=========================== */
+
+.back_cold-1 {
+  background: url(/public/assets/image/cold2.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_cold-2 {
+  background: url(/public/assets/image/cold3.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_cold-3 {
+  background: url(/public/assets/image/cold4.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_cold-4 {
+  background: url(/public/assets/image/cold9.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_cold-5 {
+  background: url(/public/assets/image/cold.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.back_usual-1 {
+  background: url(/public/assets/image/usual.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_usual-2 {
+  background: url(/public/assets/image/usual1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_usual-3 {
+  background: url(/public/assets/image/usual2.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_usual-4 {
+  background: url(/public/assets/image/usual3.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_usual-5 {
+  background: url(/public/assets/image/usual9.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.back_warm-1 {
+  background: url(/public/assets/image/warm.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_warm-2 {
+  background: url(/public/assets/image/warm1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_warm-3 {
+  background: url(/public/assets/image/warm3.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_warm-4 {
+  background: url(/public/assets/image/warm9.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.back_warm-5 {
+  background: url(/public/assets/image/warm4.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+/* ===========================Background End=========================== */
+/* ===========================Icon Start========================== */
+.icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon h1 {
+  margin: 20px;
+}
+
+.icon-text {
+  color: rgb(2, 45, 83);
+  font-weight: bold;
+  font-family: "myfont2";
+}
+
+.icon-text span {
+  color: rgb(202, 136, 14);
+  font-family: "myfont1";
+}
+
+.icon h1 i {
+  font-size: 80px;
+  color: rgb(6, 92, 85);
+}
+
+@media screen and (max-width: 500px) {
+  .icon {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon h1 {
+    margin: 10px;
+  }
+
+  .icon-text {
+    color: rgb(2, 45, 83);
+    font-weight: bold;
+    font-family: "myfont2";
+  }
+
+  .icon-text span {
+    color: rgb(202, 136, 14);
+    font-family: "myfont1";
+  }
+
+  .icon h1 i {
+    font-size: 30px;
+    color: rgb(6, 92, 85);
+  }
+}
+
+/* ==================================icon End============================= */
+
+/* ================================Input End============================ */
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  margin-top: 20px;
+  width: 500px;
+  height: 10vh;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  font-size: 30px;
+  background-color: rgba(176, 172, 177, 0.4);
+  box-shadow: 10px 20px 40px;
+  outline: none;
+}
+
+.input::placeholder {
+  color: rgb(99, 0, 0);
+}
+
+@media screen and (max-width: 500px) {
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input {
+    margin-top: 10px;
+    width: 200px;
+    height: 5vh;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: rgb(255, 255, 255, 0.4);
+    box-shadow: 10px 20px 40px;
+    outline: none;
+  }
+
+  .input::placeholder {
+    color: rgb(99, 0, 0);
+  }
+}
+
+/* ================================Input End============================ */
+/* ================================ Date Start ============================ */
+
+.text-span {
+  text-align: center;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  margin: 5px 20px;
+  font-size: 25px;
+  color: rgb(54, 8, 82);
+}
+
+.clock {
+  margin: 5px 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .text-span {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date {
+    margin: 20px 20px;
+    font-size: 15px;
+  }
+
+  .clock {
+    margin: 20px 20px;
+    font-size: 10px;
+  }
+}
+
+/* ================================ Date End ============================ */
+
+/* ================================ Degree start ============================ */
+
+.degree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.degree-span {
+  font-weight: 900;
+  border: none;
+  background-color: rgba(130, 133, 134, 0.7);
+  color: rgb(13, 3, 58);
+  border-radius: 10px;
+  box-shadow: 20px 30px 40px black;
+  font-size: 100%;
+  margin: 5%;
+  padding: 10px 20px;
+}
+
+.degree-span div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.degree-span div span {
+    font-family: "myfont2";
+}
+
+.weather {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.weather h1 {
+  font-size: 20px;
+  font-family: "myfont3";
+  color: rgb(0, 0, 0);
+  text-shadow: 10px 20px 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .degree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+
+  .degree-span {
+    border: none;
+    background-color: rgb(60, 88, 88, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+    padding: 5px 10px;
+  }
+
+  .weather {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .weather h1 {
+    font-size: 10px;
+    font-family: "myfont3";
+    color: rgb(0, 0, 0);
+    text-shadow: 10px 20px 30px;
+  }
+}
+
+/* ================================ Degree end ============================ */
+
+.spinner {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.spinner-bootstrap {
+  size: large;
+}
+
+.h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .spinner {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .spinner-bootstrap {
+    size: large;
+  }
+
+  .h3 {
+    text-align: center;
+    font-size: 10px;
+  }
+}
