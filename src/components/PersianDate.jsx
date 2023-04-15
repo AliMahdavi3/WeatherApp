@@ -39,6 +39,7 @@ function PersianDate() {
     };
   }, []);
 
+
   useEffect(() => {
     let m = moment();
     let finalDate = `${weekDays[m.day()]} ${m.jDate()} ${
